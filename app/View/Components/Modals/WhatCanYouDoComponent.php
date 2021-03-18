@@ -6,8 +6,7 @@ use Illuminate\View\Component;
 use App\Models\ContentSection;
 use App\Models\CatalanData;
 use App\Models\SpanishData;
-
-
+use PhpParser\Node\Expr\BinaryOp\Spaceship;
 
 class WhatCanYouDoComponent extends Component
 {
@@ -52,6 +51,10 @@ class WhatCanYouDoComponent extends Component
 
     public function getData()
     {
+        
+        $this->dataCat = CatalanData::all();
+        $this->dataEs = SpanishData::all();
+        
         $donateSection = ContentSection::where('section_name', '=', 'donate')->first();
         $this->donateImg = $donateSection->section_image;
         $donateCatData = CatalanData::where('section_id', '=', $donateSection->id)->first();
@@ -84,4 +87,6 @@ class WhatCanYouDoComponent extends Component
         $this->volunteerEs = $volunteerEsData->text_content;
 
     }
+
+    
 }
