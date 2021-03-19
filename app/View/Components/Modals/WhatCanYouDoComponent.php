@@ -54,6 +54,7 @@ class WhatCanYouDoComponent extends Component
         
         $this->dataCat = CatalanData::all();
         $this->dataEs = SpanishData::all();
+        $this->contentSections = ContentSection::all();
         
         $donateSection = ContentSection::where('section_name', '=', 'donate')->first();
         $this->donateImg = $donateSection->section_image;

@@ -37,6 +37,7 @@ class SetUpLanguageTest extends TestCase
     {
         Role::factory()->create();
         User::factory()->create();
+        $this->seed();
         $profile = Profile::factory()->create();
         $language = 'es';
         $locale = App::setLocale($language);
@@ -47,12 +48,12 @@ class SetUpLanguageTest extends TestCase
     public function test_LandingPageAcessToOrganizationDataProfile()
     {
         $this->withoutExceptionHandling();
-
+        $this->seed();
         Role::factory()->create();
         User::factory()->create();
         $profile = Profile::factory()->create();
         $response = $this->get(route('home'))
-        //->assertStatus(200)
+            ->assertStatus(200)
         ->assertViewHas(['profile' => $profile]);
     }
 }
