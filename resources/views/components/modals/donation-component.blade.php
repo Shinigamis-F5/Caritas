@@ -23,7 +23,7 @@
         href="mailto:santjosepbdn@gmail.com" 
         txt="santjosepbdn@mail.com"/>{{__('donation-tax-relief-text-2')}} 
         <br>
-        {{__('donation-tax-relief-data-particular')}}
+        {{__('donation-tax-relief-data')}}
         <br>
         {{__('donation-tax-relief-data-entidad')}}         
 

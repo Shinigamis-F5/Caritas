@@ -28,6 +28,7 @@ class DonationComponent extends Component
     public function render()
     {
         $this->getProfile();
+        $this->formatBankAccount($this->profile->bankAccount);
         return view('components.modals.donation-component');
     }
 
@@ -35,7 +36,22 @@ class DonationComponent extends Component
     {
         $user = User::where('role_id', '=', 1)->firstOrFail();
         $this->profile = $user->profile;
+    }
 
+    public function formatBankAccount(string $bankAccount)
+    {
+        $accountFormated = [];
+        $count = 0;
+        while ($count <= 24) {
+            $fourChar = substr($bankAccount, $count, 4);
+            array_push($accountFormated, $fourChar);
+            $count += 4;
+        }
+
+        $bankAccount = implode("-", $accountFormated);
+        $bankAccount = substr($bankAccount, 0, -1);
+
+        $this->profile->bankAccount = $bankAccount;
     }
     
 }

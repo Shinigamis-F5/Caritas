@@ -18,8 +18,8 @@
     "test": "quien somos",
 
 
-	"nav-idioma-catalan": "Catalán",
-	"nav-idioma-castellano": "Castellano",
+	"nav-idioma-catalan": "CATALÁN",
+	"nav-idioma-castellano": "CASTELLANO",
 	"nav-quienes-somos": "QUIÉNES SOMOS",
 	"nav-que-puedes-hacer-tu": "QUÉ PUEDES HACER TU",
 	"nav-contacto": "CONTACTO",
@@ -104,8 +104,8 @@
 		"donation-tax-relief-title": "BENEFICIOS FISCALES",
 		"donation-tax-relief-text": "Con tu aportación económica disfrutarás de beneficios fiscales que te permitirán desgravar los donativos en la Declaración de la Renta o Impuesto de Sociedades. Si quieres desgravar envianos al correo",
 		"donation-tax-relief-text-2": "con los siguientes datos:",
-		"donation-tax-relief-data-particular": "PARTICULAR: Nombre y Apellido , DNI, dirección postal, EMPRESA", 
-		"donation-tax-relief-data-entidad": "ENTIDAD: Razón Social, CIF, Dirección Postal",
+		"donation-tax-relief-data-particular": "PARTICULAR: Nombre y Apellido , DNI, dirección postal", 
+		"donation-tax-relief-data-entidad": "EMPRESA o ENTIDAD: Razón Social, CIF, Dirección Postal",
 		"donation-10": "con 10 € aportarás leche para una pareja durante un mes.",
 		"donation-20": "con 20 € tendrán también un plato de legumbres, pasta o arróz.",
 		"donation-50": "con 50 € podrán comprar pescado y carne para un mes",
@@ -113,6 +113,16 @@
 
 		
 		"contact-title": "CONTACTA CON NOSOTROS",
-		"contact-text": "Puedes contactar con nosotros en la parroquia de Sant Josep de Badalona, los viernes de 18h a 20h, entrada por pasaje Ventos Mir nº22. También puedes escribirnos un correo electrónico a"
+		"contact-text": "Puedes contactar con nosotros en la parroquia de Sant Josep de Badalona, los viernes de 18h a 20h, entrada por pasaje Ventos Mir nº22. También puedes escribirnos un correo electrónico a",
+
+
+		"volunteer-btn": "Voluntariado",
+		"explain-the-project-btn": "Difusión",
+		"partner-btn": "Colaborador",
+
+		"volunteer-title-card": "Voluntariado",
+		"explain-the-project-title-card": "Difusion",
+		"partner-title-card": "Colaborador"
+
 
 }

@@ -1,18 +1,5 @@
-<x-layout>
-    <header class="border-b-2 border-red mb-20 pt-3 px-3">
-        <div>
-            <h1 class="text-h2 mb-5">Caritas Escritorio</h1>
-            
-                <div class="mr-6 flex">
-                    <form id="logout-form" action="{{ route('logout') }}" method="POST">
-                        @csrf
-                        <button class="text-grey hover:text-red text-ui-main" type="submit">Desconectar</button>
-                    </form>
-
-                </div>
-          
-        </div>
-    </header>
+<x-backoffice-layout>
+    
     <main class="pl-5 flex gap-20 flex-wrap justify-center text-body m-4">
         <div class="flex flex-col gap-20 flex-grow-1 w-1/3">
             <section class="border-red border-2 rounded-2xl p-5 h-64 flex-grow-0">
@@ -167,4 +154,4 @@
             </section>
         </div>
     </main>
-</x-layout>
+</x-backoffice-layout>

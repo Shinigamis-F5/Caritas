@@ -116,6 +116,7 @@ php artisan test
  
  - Visual elements are created as components for better maintenance
  - Colors and Fonts available through tailwind are limited to the ones used in the project (see ```tailwind.config.js```)
+ - For aplying we oriented the styles around ```lg``` Breaking Point of tailwind, so everything underneath is mobile view (standard label) leaving destop view for everything over ```lg``` (class:"lg:style-for-desktop)
 
 ### Public page
 
@@ -132,11 +133,12 @@ php artisan test
 
 ## To customize the page the organization needs to:
 
+- In order to the webpage to be able to render the Admin MUST FIRST add the content and the images for all the sections
 - Admin needs to Register (under ```/register```)
 - This route will be available only once
-- Admin can then login
+- Admin can then login (under ```/login```)
 - Admin then needs to create the organization profile
 - Upload Logo
+- Uploaded images are limited to 500 KB in order to avoid a slowing down the page.
 - Once the profile is created, Admin can only update the profile (can't be deleted)
-- In order to the webpage to be able to render the Admin MUST FIRST add the content and the images for all the sections
 - If an Admin forgets his password, could be recovered through the forgot password link.
