@@ -65,6 +65,12 @@ The project requirements were:
     php artisan key:generate
     ```
 
+- link storage folders
+
+    ```
+    php artisan storage:link
+    ```
+
 - run all the migrations
 
     ```
@@ -86,7 +92,7 @@ The project requirements were:
 - build 
 
     ```
-    npm run dev
+    npm run prod
     ```
 
 ## Run Tests

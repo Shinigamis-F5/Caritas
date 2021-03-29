@@ -32,27 +32,4 @@ class SetUpLanguageTest extends TestCase
         $this->assertEquals('cat', $locale);
         $response->assertRedirect();
     }
-    
-    public function test_UserSeeContentInLanguageChosen()
-    {
-        Role::factory()->create();
-        User::factory()->create();
-        $profile = Profile::factory()->create();
-        $language = 'es';
-        $locale = App::setLocale($language);
-        $response = $this->get('/');
-        $response->assertSee('Las necesidades básicas');
-    }
-
-    public function test_LandingPageAcessToOrganizationDataProfile()
-    {
-        $this->withoutExceptionHandling();
-
-        Role::factory()->create();
-        User::factory()->create();
-        $profile = Profile::factory()->create();
-        $response = $this->get(route('home'))
-        //->assertStatus(200)
-        ->assertViewHas(['profile' => $profile]);
-    }
 }
