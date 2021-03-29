@@ -11,6 +11,20 @@
         <script src="https://cdn.ckeditor.com/ckeditor5/26.0.0/classic/ckeditor.js"></script>
       </head>
     <body id="body" {{ $attributes }}>
+      <header class="border-b-2 border-red mb-20 pt-3 px-3">
+        <div>
+            <h1 class="text-h2 mb-5 text-center">Caritas Escritorio</h1>
+            
+                <div class="flex justify-between mx-72">
+                    <form id="logout-form" action="{{ route('logout') }}" method="POST">
+                        @csrf
+                        <button class="text-grey hover:text-red text-ui-main ml-3" type="submit">Desconectar</button>
+                    </form>
+                    <a href="{{ route('home') }}" class="text-grey hover:text-red text-ui-main">Página Principal</a>
+                </div>
+          
+        </div>
+    </header>
       {{ $slot }}
      
     </body>

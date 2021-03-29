@@ -14,6 +14,6 @@
         @endif
             <x-button txt="{{ __('nav-quienes-somos') }}" burguer-btn @click="open = false"><x-modals.who-we-are-component /></x-button>
             <x-button txt="{{ __('nav-que-puedes-hacer-tu') }}" burguer-btn @click="open = false"><x-modals.what-can-you-do-component /></x-button>
-            <x-button txt="{{ __('nav-contacto') }}" burguer-btn @click="open = false">Content</x-button>
+            <x-button txt="{{ __('nav-contacto') }}" burguer-btn @click="open = false"><x-modals.contact-component /></x-button>
         </div>
 </div>

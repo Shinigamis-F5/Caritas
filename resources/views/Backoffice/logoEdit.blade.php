@@ -1,18 +1,4 @@
-<x-layout>
-    <header class="border-b-2 border-red mb-20 pt-3 px-3">
-
-        <h1 class="text-h2 mb-5">Caritas Escritorio</h1>
-        <ul class="flex text-ui-main">
-            <li class="mr-6">
-                <form id="logout-form" action="{{ route('logout') }}" method="POST">
-                    @csrf
-                    <button class="text-grey hover:text-red" type="submit">Desconectarse</button>
-                </form>
-
-            </li>
-        </ul>
-
-    </header>
+<x-backoffice-layout>
     <div class="container text-body mx-auto mt-20 w-1/2 border-red border-2 rounded-2xl p-10 relative">
         <h2 class="mb-10 text-h4 text-center">Editar logotipo de la organización</h2>
         <a class="absolute top-10 right-10 text-red" href="{{route('dashboard')}}">Atrás</a>
@@ -33,4 +19,4 @@
             txt="Cargar"/>
         </form>
     </div>
-</x-layout>
+</x-backoffice-layout>

@@ -10,7 +10,7 @@
 @endif
 
 @if ($normalUrl)
-    <a role="button" href="{{ $url }}"><button class="btn w-full h-full">{{ $txt }}</button></a>
+    <a role="button" href="{{ $url }}"><button class="btn btn-space">{{ $txt }}</button></a>
 @endif
 
 @if ($navUrl)

@@ -6,7 +6,7 @@
         <p class="my-4 mx-10 w-3/4">
             {{__('contact-text')}} 
         </p>
-        <p class="text-d-h4">
+        <p class="text-h4 lg:text-d-h4">
             {{ $profile->org_email }} <br>
         </p>
         

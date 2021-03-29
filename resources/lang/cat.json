@@ -16,16 +16,16 @@
    "edit-profile-phone": "Telèfono",
    "edit-profile-bankAccount": "Compte Bancari",
    "edit-profile-bizum": "Bizum",
-   "test": "qui som",
+   "test": "QUI SOM",
 
-	"nav-idioma-catalan": "Català",
-	"nav-idioma-castellano": "Castellà",
-	"nav-quienes-somos": "Qui Som",
-	"nav-que-puedes-hacer-tu": "Què Pots Fer Tu",
-	"nav-contacto": "Contacte",
+	"nav-idioma-catalan": "CATALÀ",
+	"nav-idioma-castellano": "CASTELLÀ",
+	"nav-quienes-somos": "QUI SOM",
+	"nav-que-puedes-hacer-tu": "QUE POTS FER TU",
+	"nav-contacto": "CONTACTE",
 		
 	"hero-titulo": "Targetes Moneder",
-	"hero-texto": "targetes que permeten accedir a les mateixes necessitats bàsiques però des d’uns principis d’organització col·lectiva i d’apoderament a través de la participació de les persones que venen a demanar ajuda a Càritas, del suport mutu i de l’horitzontalitat.",
+	"hero-texto": "Targetes que permeten accedir a les mateixes necessitats bàsiques però des d’uns principis d’organització col·lectiva i d’apoderament a través de la participació de les persones que venen a demanar ajuda a Càritas, del suport mutu i de l’horitzontalitat.",
 	"hero-boton": "FER UNA DONACIÓ",
 
 	
@@ -105,20 +105,30 @@
 
 		
 	"donation-title": "Donar",
-	"donation-account": "Pots fer una doinaciò per transferència bancària:",
+	"donation-account": "Pots fer una donaciò per transferència bancària:",
 	"donation-bizum": "o amb el número de Bizum",
 	"donation-tax-relief-title": "Beneficis Fiscals",
 	"donation-tax-relief-text": "Amb la teva aportació econòmica gaudiràs de beneficis fiscals que et permetran deduir els teus donatius en la Declaració de la Renda o Impost de Societats. Si vols desgravar envia'ns al correu",
 	"donation-tax-relief-text-2": "les següents dades:",
-	"donation-tax-relief-data": "PARTICULAR Nom i Cognom DNI adreça postal EMPRESA",
-	"donation-tax-relief-data-entidad": "ENTITAT Raó social CIF i adreça postal",
+	"donation-tax-relief-data": "PARTICULAR Nom i Cognom DNI adreça postal",
+	"donation-tax-relief-data-entidad": "EMPRESA o ENTITAT Raó social CIF i adreça postal",
 	"donation-10": "amb 10 € aportaràs llet per una parella durant un mes.",
 	"donation-20": "amb 20 € tindran també un plat de llegums, pasta o arròs.",
 	"donation-50": "amb 50 € podran comprar peix y carn per tot un mes",
 	"donation-+50": "amb més € hi afegiràs productes de neteja",
 
 	"contact-title": "CONTACTE",
-	"contact-text": "Pots contactar amb nosaltres a la parròquia Sant Josep de Badalona, els divendres de 18:00 a 20:00, entrada pel passatje Ventós Mir número 22 tambè pots escriure'ns un correu electrónic a "
+	"contact-text": "Pots contactar amb nosaltres a la parròquia Sant Josep de Badalona, els divendres de 18:00 a 20:00, entrada pel passatje Ventós Mir número 22 tambè pots escriure'ns un correu electrónic a ",
+
+	"volunteer-btn": "Voluntariat",
+	"explain-the-project-btn": "Difusió",
+	"partner-btn": "Col·laborador",
+
+	"volunteer-title-card": "Voluntariat",
+	"explain-the-project-title-card": "Difussió",
+	"partner-title-card": "Col·laborador"
+
+
 	
 
 

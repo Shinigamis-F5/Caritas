@@ -92,7 +92,7 @@
                 <p class="text-h5 font-black md:text-d-h5">{{ __('seccion-videos-subtitulo') }}</p>
                 <h2 class="text-h2 font-black max-w-980px md:text-d-h3">{{ __('seccion-videos-titulo') }}</h2>
             </div>
-            <x-button txt="{{ __('hero-boton') }}" normal-modal><x-modals.donation-component /></x-button>
+            <x-button txt="{{ __('hero-boton') }}" normal-modal><x-Modals.donation-component /></x-button>
         </section>
     </main>
         <x-footer-component class="mt-20"/>

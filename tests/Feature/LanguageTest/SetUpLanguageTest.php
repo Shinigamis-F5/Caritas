@@ -32,4 +32,5 @@ class SetUpLanguageTest extends TestCase
         $this->assertEquals('cat', $locale);
         $response->assertRedirect();
     }
+    
 }
