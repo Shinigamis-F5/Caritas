@@ -4,11 +4,11 @@
     <main class="flex flex-col items-center gap-48">
         <section class="w-full" >
             <x-hero />
-            <x-iframe src="https://www.youtube.com/embed/Rqt5B2Ko0Es" class="w-full h-72 lg:h-450px"/>
+            <x-iframe src="https://www.youtube.com/embed/FiMvPqisUCU" class="w-full h-72 lg:h-450px"/>
         </section>
     <x-separator />
         <section class="flex flex-row items-center my-10 mx-6 justify-between w-full">
-            <img class="hidden rounded-r-imglateral md:flex md:h-350px md:w-48 lg:h-365px lg:w-80" src="{{ asset('storage/img/SectionOneLeft.jpg') }}" alt="Caritas Logo" />
+            <img class="hidden rounded-r-imglateral md:flex md:h-350px md:w-48 lg:h-365px lg:w-80" src="{{ asset('storage/img/sectionOneLeft.jpg') }}" alt="Side banner" />
             <div class="flex flex-col gap-12 mx-6 w-660px">
                 <h2 class="text-h2 p-3 text-center font-black md:text-d-h3 md:p-0">{{ __('necesidades-basicas-titulo') }}</h2>
                 <p class="inline-flex flex-col gap-8 max-w-5xl">
@@ -26,7 +26,7 @@
                     </span>
                 </p>
             </div>
-            <img class="hidden rounded-l-imglateral md:flex md:h-350px md:w-48 lg:h-365px lg:w-80" src="{{ asset('storage/img/SectionOneRight.jpg') }}" alt="Caritas Logo" />
+            <img class="hidden rounded-l-imglateral md:flex md:h-350px md:w-48 lg:h-365px lg:w-80" src="{{ asset('storage/img/sectionOneRight.jpg') }}" alt="Side banner" />
         </section>
     <x-separator />
         <section class="flex flex-col items-center gap-20 mx-6 lg:gap-60">
